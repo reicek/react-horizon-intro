@@ -1,0 +1,16 @@
+.app {
+  background: #f0f0f0;
+  color: #000;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0.2rem 0.3rem 0.5rem rgba(0,0,0,0.15), 0 0.2rem 0.2rem rgba(0,0,0,0.10);
+}
+.app:hover {
+  box-shadow: 0.3rem 0.4rem 0.6rem rgba(0,0,0,0.15), 0 0.4rem 0.4rem rgba(0,0,0,0.10);
+}
+.app .row {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}

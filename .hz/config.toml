@@ -1,0 +1,5 @@
+bind = [ "localhost" ]
+port = 8181
+
+connect = "localhost:28015"
+start_rethinkdb = false
